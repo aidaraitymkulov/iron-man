@@ -1,0 +1,54 @@
+@import'./font.css';
+@import'./reset.css';
+.header {
+    background-color: #000;
+    height: 80px;
+}
+.container {
+    max-width: 1440px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    color: #FFF;
+    font-family: 'Kanit',Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.header__menu {
+    gap: 40px;
+    width: 1000px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.search {
+    color: #000;
+    font-family: 'Kanit',Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.header__link {
+    color: #FFF;
+    font-family: 'Itim',Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+.hero {
+    height: 680px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../src/iron\ men.jpg);
+}
